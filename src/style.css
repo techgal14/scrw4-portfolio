@@ -1,14 +1,42 @@
 body {
-    background-color: blueviolet;
+    background: linear-gradient(180.2deg, rgb(120, 85, 137) -6.9%, rgb(35, 9, 31) 76.7%);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height: 100vh;
 }
 
 h1 {
     font-family: monospace;
+    font-size: 96px;
     font-weight: bold;
 }
 
-h2 {
+h2,
+h3 {
     font-family: "Playfair Display", serif;
+    font-size: 36px;
      font-weight: 500;
 }
 
+.hero {
+    background-color: black;
+    color: #f7eddc;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero p2 {
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.btn-hero {
+    background: #6e4c7d;
+    border-radius: 4px;
+    color:  #f7eddc;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 18px 30px;
+}
