@@ -3,6 +3,7 @@
 --branding-color: #6e4c7d;
 --heading-font-family: "Playfair Display", serif;
 --default-font-family: monospace;
+--primary-font-color: #f7eddc;
 }
 
 body {
@@ -20,14 +21,21 @@ h1 {
 
 h2,
 h3 {
+    color: var(--primary-font-color);
     font-family: var(--heading-font-family);
     font-size: 36px;
-     font-weight: 500;
+    font-weight: 500;
+}
+
+p {
+    background: var (--primary-font-color);
+    color: black;
+    font-family: var(--heading-font-family);
 }
 
 .hero {
     background-color: black;
-    color: #f7eddc;
+    color: var(--primary-font-color);
     text-align: center;
     padding: 120px 5px;
 }
@@ -47,4 +55,9 @@ h3 {
     line-height: 27px;
     font-weight: bold;
     padding: 18px 30px;
+}
+
+.main-icons {
+    font-size: 150px;
+    color: black;
 }
