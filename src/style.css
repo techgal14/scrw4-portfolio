@@ -57,7 +57,11 @@ p {
     padding: 18px 30px;
 }
 
-.container-one {
+.main-text {
+    font-size: 42px;
+}
+
+.main-paragraphs {
     color: black;
 }
 
