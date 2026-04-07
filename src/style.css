@@ -1,9 +1,9 @@
 
 :root {
 --branding-color: #6e4c7d;
---heading-font-family: "Playfair Display", serif;
+--primary-font-family: "Playfair Display", serif;
 --default-font-family: monospace;
---primary-font-color: #f7eddc;
+--primary-color: #f7eddc;
 }
 
 body {
@@ -14,34 +14,42 @@ body {
 }
 
 h1 {
+    color: #b7ce0a;
     font-family: var(--default-font-family);
     font-size: 96px;
     font-weight: bold;
 }
 
-h2,
-h3 {
-    color: var(--primary-font-color);
-    font-family: var(--heading-font-family);
+h2 {
+    color: var(--primary-color);
+    font-family: var(--primary-font-family);
     font-size: 36px;
     font-weight: 500;
 }
 
-p {
-    background: var (--primary-font-color);
+h3 {
     color: black;
-    font-family: var(--heading-font-family);
+    font-family: var(--primary-font-family);
+    font-size: 32px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+p {
+    background: var (--primary-color);
+    color: black;
+    font-family: var(--primary-font-family);
 }
 
 .hero {
     background-color: black;
-    color: var(--primary-font-color);
+    color: var(--primary-color);
     text-align: center;
     padding: 120px 5px;
 }
 
 .hero h2 {
-    font-family: var(--heading-font-family);
+    font-family: var(--primary-font-family);
     font-size: 36px;
     font-weight: 500;
     padding: 10px;
@@ -58,23 +66,24 @@ p {
 }
 
 .main-text {
-    font-size: 52px;
-    text-decoration: underline;
-}
-
-.main-paragraphs {
-    color: black;
+    font-size: 46px;
 }
 
 .info-paragraphs {
-    background: var(--primary-font-color);
+    background: var(--primary-color);
     color: black;
-    font-family: var(--heading-font-family);
+    font-family: var(--primary-font-family);
     border: 3px solid black;
     border-radius: 8px;
-
 }
+
 .main-icons {
-    font-size: 150px;
+    font-size: 30px;
     color: black;
+}
+
+.btn-branding:hover {
+    background: #e0ea93;
+    color: var(--branding-color);
+    border-color: var(--branding-color);
 }
