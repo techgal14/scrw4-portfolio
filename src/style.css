@@ -17,6 +17,7 @@ h1 {
     color: #b7ce0a;
     font-family: var(--default-font-family);
     font-size: 96px;
+    line-height: 1.5;
     font-weight: bold;
 }
 
@@ -91,31 +92,20 @@ p {
 }
 
 @media (max-width: 768px) {
-    body {
-        text-align: center;
-    }
-
     h1 {
-        font-size: 56px;
+        font-size: 52px;
     }
 
     h3 {
         font-size: 28px;
     }
 
-    p {
-        font-size: 15px;
+    .hero {
+        padding: 80px 20px;
     }
 
     .hero h2 {
         font-size: 22px;
-    }
-
-    .btn-branding {
-    font-size: 12px;
-    line-height: 20px;
-    font-weight: bold;
-    padding: 15px 25px;
     }
 
     .single-paragraph-text {
