@@ -57,6 +57,18 @@ p {
     padding: 18px 30px;
 }
 
+.container-one {
+    color: black;
+}
+
+.info-paragraphs {
+    background: var(--primary-font-color);
+    color: black;
+    font-family: var(--heading-font-family);
+    border: 3px solid black;
+    border-radius: 8px;
+
+}
 .main-icons {
     font-size: 150px;
     color: black;
