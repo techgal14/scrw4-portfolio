@@ -74,35 +74,34 @@ p {
     background: var(--primary-color);
     color: black;
     font-family: var(--primary-font-family);
-    font-size: 19px;
+    font-size: 17px;
     line-height: 30px;
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 12px;
 }
 
 .info-paragraphs h1 {
-    font-size: 62px;
-    line-height: 80px;;
+    font-size: 56px;
+    line-height: 72px;;
 }
 
-.info-paragraphs h2 {
+.info-paragraphs h2, h3 {
     color: black;
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.info-paragraphs h3 {
-    color: black;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 700;
 }
 
 .about-paragraph {
-    margin-top: 120px;;
+    margin-top: 120px;
 }
 .main-icons {
     font-size: 30px;
     color: black;
+}
+
+.pic-michelle {
+    border-radius: 12px;
+    border: 2px solid black;
 }
 
 .btn-branding:hover {
@@ -129,5 +128,9 @@ p {
 
     .single-paragraph-text {
         font-size: 32px;
+    }
+
+    .about-paragraph {
+        text-align: center;
     }
 }
