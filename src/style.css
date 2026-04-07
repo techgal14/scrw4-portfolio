@@ -1,3 +1,10 @@
+
+:root {
+--branding-color: #6e4c7d;
+--heading-font-family: "Playfair Display", serif;
+--default-font-family: monospace;
+}
+
 body {
     background: linear-gradient(180.2deg, rgb(120, 85, 137) -6.9%, rgb(35, 9, 31) 76.7%);
     background-repeat: no-repeat; 
@@ -6,14 +13,14 @@ body {
 }
 
 h1 {
-    font-family: monospace;
+    font-family: var(--default-font-family);
     font-size: 96px;
     font-weight: bold;
 }
 
 h2,
 h3 {
-    font-family: "Playfair Display", serif;
+    font-family: var(--heading-font-family);
     font-size: 36px;
      font-weight: 500;
 }
@@ -22,21 +29,22 @@ h3 {
     background-color: black;
     color: #f7eddc;
     text-align: center;
-    padding: 120px 20px;
+    padding: 120px 5px;
 }
 
-.hero p2 {
-    font-family: "Playfair Display", serif;
+.hero h2 {
+    font-family: var(--heading-font-family);
     font-size: 36px;
     font-weight: 500;
     padding: 10px;
 }
 
-.btn-hero {
-    background: #6e4c7d;
-    border-radius: 4px;
-    color:  #f7eddc;
+.btn-branding {
+    background: var(--branding-color);
+    border-radius: 8px;
+    color:  black;
     font-size: 18px;
     line-height: 27px;
+    font-weight: bold;
     padding: 18px 30px;
 }
