@@ -17,7 +17,7 @@ h1 {
     color: #b7ce0a;
     font-family: var(--default-font-family);
     font-size: 96px;
-    line-height: 1.5;
+    line-height: 144px;
     font-weight: bold;
 }
 
@@ -74,12 +74,32 @@ p {
     background: var(--primary-color);
     color: black;
     font-family: var(--primary-font-family);
-    font-size: 20px;
-    line-height: 1.5;
+    font-size: 19px;
+    line-height: 30px;
     border: 3px solid black;
     border-radius: 12px;
 }
 
+.info-paragraphs h1 {
+    font-size: 62px;
+    line-height: 80px;;
+}
+
+.info-paragraphs h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.info-paragraphs h3 {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.about-paragraph {
+    margin-top: 120px;;
+}
 .main-icons {
     font-size: 30px;
     color: black;
@@ -87,8 +107,7 @@ p {
 
 .btn-branding:hover {
     background: white;
-    color: #613263;
-    border-color: #613263;
+    border: 2px solid #613263;
 }
 
 @media (max-width: 768px) {
