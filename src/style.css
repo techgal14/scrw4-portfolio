@@ -1,6 +1,6 @@
 
 :root {
---branding-color: #6e4c7d;
+--branding-color: #c8a6d8;
 --primary-font-family: "Playfair Display", serif;
 --default-font-family: monospace;
 --primary-color: #f7eddc;
@@ -23,8 +23,8 @@ h1 {
 h2 {
     color: var(--primary-color);
     font-family: var(--primary-font-family);
-    font-size: 36px;
-    font-weight: 500;
+    font-size: 32px;
+    font-weight: 400;
 }
 
 h3 {
@@ -83,7 +83,7 @@ p {
 }
 
 .btn-branding:hover {
-    background: #e0ea93;
-    color: var(--branding-color);
-    border-color: var(--branding-color);
+    background: white;
+    color: #613263;
+    border-color: #613263;
 }
