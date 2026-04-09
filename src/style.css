@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat; 
     background-size: cover;
     min-height: 100vh;
+    margin-top: 120px;
 }
 
 h1 {
@@ -96,9 +97,6 @@ p {
     font-size: 17px;
 }
 
-.about-paragraph {
-    margin-top: 120px;
-}
 .main-icons {
     font-size: 30px;
     color: black;
