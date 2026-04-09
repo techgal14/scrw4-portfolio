@@ -107,6 +107,10 @@ p {
     font-size: 17px;
 }
 
+.project-description {
+    padding: 120px 60px;
+
+}
 .main-icons {
     font-size: 30px;
     color: black;
@@ -132,6 +136,11 @@ p {
 }
 
 .skills-paragraph-two {
+    background: white;
+    border-radius: 12px;
+}
+
+.projects-paragraphs {
     background: white;
     border-radius: 12px;
 }
@@ -164,6 +173,11 @@ p {
     }
 
     .info-paragraphs {
+        text-align: center;
+    }
+
+    .project-description {
+        padding: 0;
         text-align: center;
     }
 }
