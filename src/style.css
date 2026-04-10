@@ -2,8 +2,9 @@
 :root {
 --button-color: #c8a6d8;
 --primary-font-family: "Playfair Display", serif;
---default-font-family: monospace;
+--secondary-font-family: monospace;
 --primary-color: #f7eddc;
+--secondary-color: #b7ce0a;
 }
 
 body {
@@ -14,8 +15,8 @@ body {
 }
 
 h1 {
-    color: #b7ce0a;
-    font-family: var(--default-font-family);
+    color: var(--secondary-color);
+    font-family: var(--secondary-font-family);
     font-size: 96px;
     line-height: 100px;
     font-weight: bold;
@@ -158,6 +159,13 @@ p {
 .projects-paragraphs h2 {
     color: black;
     font-size: 48px;
+    font-weight: 700;
+}
+
+.hero-projects p {
+    color: var(--secondary-color);
+    font-family: var(--secondary-font-family);
+    font-size: 36px;
     font-weight: 700;
 }
 
