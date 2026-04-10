@@ -141,15 +141,20 @@ p {
     padding-left: 60px;
 }
 
+.contact-paragraph {
+    font-family: 60px;
+}
+
+.contact-paragraph a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
 .primary-button:hover {
     background: white;
     border: 2px solid var(--secondary-button-color);
     color:var(--secondary-button-color);
-}
-
-.contact-paragraph a {
-    font-size: 30px;
-    text-decoration: none;
 }
 
 .secondary-button:hover {
@@ -161,6 +166,12 @@ p {
     font-weight: bold;
     padding: 18px 30px;
 }
+
+.contact-paragraph a:hover {
+    color: var(--secondary-button-color);
+    text-decoration: underline;
+}
+
 
 @media (max-width: 768px) {
     h1 {
