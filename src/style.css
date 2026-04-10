@@ -76,8 +76,8 @@ p {
     padding: 18px 30px;
 }
 
-.main-icons {
-    font-size: 30px;
+.icons {
+    font-size: 60px;
     color: black;
 }
 
@@ -145,6 +145,11 @@ p {
     background: white;
     border: 2px solid var(--secondary-button-color);
     color:var(--secondary-button-color);
+}
+
+.contact-paragraph a {
+    font-size: 30px;
+    text-decoration: none;
 }
 
 .secondary-button:hover {
