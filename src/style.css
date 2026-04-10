@@ -68,12 +68,13 @@ p {
 }
 
 .btn-branding-projects {
-    color: var(--button-color);
-    border: 2px solid var(--button-color);
-    border-radius: 8px;
+    background: white;
+    color:#613263;
     font-size: 18px;
     line-height: 27px;
     font-weight: bold;
+    border: 2px solid #613263;
+    border-radius: 8px;
     padding: 18px 30px;
 }
 
@@ -141,14 +142,31 @@ p {
 }
 
 .projects-paragraphs {
-    background: white;
+    font-family: var(--primary-font-family);
+    background: var(--primary-color);
     border-radius: 12px;
+}
+
+.projects-paragraphs h2 {
+    color: black;
+    font-size: 52px;
+    font-weight: 700;
 }
 
 .btn-branding:hover {
     background: white;
     border: 2px solid #613263;
     color:#613263;
+}
+
+.btn-branding-projects:hover {
+    background: var(--button-color);
+    border-radius: 8px;
+    color:  black;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    padding: 18px 30px;
 }
 
 @media (max-width: 768px) {
