@@ -24,14 +24,15 @@ h1 {
 }
 
 h2 {
-    color: var(--primary-color);
+    
     font-size: 32px;
     font-weight: 400;
 }
 
 h3 {
     color: black;
-    font-size: 32px;
+    font-size: 34px;
+    line-height: 50px;
     font-weight: 700;
 }
 
@@ -43,18 +44,19 @@ h4 {
 p {
     background: var (--primary-color);
     color: black;
-    font-size: 18px;
-    margin: 0;
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 100;
 }
 
 .hero {
     background-color: black;
     color: var(--primary-color);
-    text-align: center;
     padding: 120px 5px;
 }
 
 .hero h2 {
+    color: var(--primary-color);
     font-size: 36px;
     font-weight: 500;
     padding: 10px;
@@ -88,25 +90,19 @@ p {
      font-weight: 700;
 }
 
-.container-paragraphs p {
-    font-size: 17px;
-    line-height: 30px;
-    font-weight: 100;
-}
 .container-paragraphs h1 {
     font-size: 57px;
     line-height: 70px;
-}
-
-.container-paragraphs h3 {
-    font-size: 30px;
-    line-height: 50px;
 }
 
 .container-paragraphs h2 {
     color: black;
     font-size: 38px; 
     font-weight: 700;  
+}
+
+.about-paragraphs {
+    font-size: 17px;
 }
 
 .main-icons {
