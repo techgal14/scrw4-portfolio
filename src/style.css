@@ -1,7 +1,7 @@
 
 :root {
---button-color: #c8a6d8;
---primary-font-family: "Playfair Display", serif;
+--primary-button-color: #c8a6d8; 
+--secondary-button-color: #613263;
 --secondary-font-family: monospace;
 --primary-color: #f7eddc;
 --secondary-color: #b7ce0a;
@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat; 
     background-size: cover;
     min-height: 100vh;
+    font-family: "Playfair Display", serif;
 }
 
 h1 {
@@ -19,27 +20,29 @@ h1 {
     font-family: var(--secondary-font-family);
     font-size: 96px;
     line-height: 100px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 h2 {
     color: var(--primary-color);
-    font-family: var(--primary-font-family);
     font-size: 32px;
     font-weight: 400;
 }
 
 h3 {
     color: black;
-    font-family: var(--primary-font-family);
     font-size: 32px;
     font-weight: 700;
+}
+
+h4 {
+    color: var(--primary-color);
+    font-size: 46px;
 }
 
 p {
     background: var (--primary-color);
     color: black;
-    font-family: var(--primary-font-family);
     font-size: 18px;
     margin: 0;
 }
@@ -52,14 +55,13 @@ p {
 }
 
 .hero h2 {
-    font-family: var(--primary-font-family);
     font-size: 36px;
     font-weight: 500;
     padding: 10px;
 }
 
-.btn-branding {
-    background: var(--button-color);
+.primary-button {
+    background: var(--primary-button-color);
     border-radius: 8px;
     color:  black;
     font-size: 18px;
@@ -68,7 +70,7 @@ p {
     padding: 18px 30px;
 }
 
-.btn-branding-projects {
+.secondary-button {
     background: white;
     color:#613263;
     font-size: 18px;
@@ -79,33 +81,32 @@ p {
     padding: 18px 30px;
 }
 
-.single-paragraph-text {
-    font-size: 46px;
-    font-family: var(--primary-font-family);
-}
-
-.info-paragraphs {
+.container-paragraphs {
     background: var(--primary-color);
     color: black;
-    font-family: var(--primary-font-family);
+    border-radius: 12px;
+     font-weight: 700;
+}
+
+.container-paragraphs p {
     font-size: 17px;
     line-height: 30px;
-    border-radius: 12px;
+    font-weight: 100;
+}
+.container-paragraphs h1 {
+    font-size: 57px;
+    line-height: 70px;
 }
 
-.info-paragraphs h1 {
-    font-size: 58px;
-    line-height: 72px;;
-}
-
-.info-paragraphs h2, h3 {
-    color: black;
+.container-paragraphs h3 {
     font-size: 30px;
-    font-weight: 700;
+    line-height: 50px;
 }
 
-.info-description {
-    padding: 40px
+.container-paragraphs h2 {
+    color: black;
+    font-size: 38px; 
+    font-weight: 700;  
 }
 
 .main-icons {
@@ -113,20 +114,7 @@ p {
     color: black;
 }
 
-.skills-paragraph-one {
-    background: var(--primary-color);
-    border-radius: 12px;
-    text-align: center;
-}
-
-.skills-paragraph-one p {
-    color: black;
-    font-family: var(--primary-font-family);
-    font-size: 38px;
-    font-weight: 700;
-}
-
-.skills-paragraph-two {
+.skills-text-box {
     background: white;
     border-radius: 12px;
 }
@@ -151,7 +139,6 @@ p {
 }
 
 .projects-paragraphs {
-    font-family: var(--primary-font-family);
     background: var(--primary-color);
     border-radius: 12px;
 }
@@ -169,14 +156,14 @@ p {
     font-weight: 700;
 }
 
-.btn-branding:hover {
+.primary-button:hover {
     background: white;
-    border: 2px solid #613263;
-    color:#613263;
+    border: 2px solid var(--secondary-button-color);
+    color:var(--secondary-button-color);
 }
 
-.btn-branding-projects:hover {
-    background: var(--button-color);
+.secondary-button:hover {
+    background: var(--primary-button-color);
     border-radius: 8px;
     color:  black;
     font-size: 18px;
