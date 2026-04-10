@@ -11,7 +11,6 @@ body {
     background-repeat: no-repeat; 
     background-size: cover;
     min-height: 100vh;
-    margin-top: 120px;
 }
 
 h1 {
@@ -89,12 +88,11 @@ p {
     font-family: var(--primary-font-family);
     font-size: 17px;
     line-height: 30px;
-    border: 2px solid black;
     border-radius: 12px;
 }
 
 .info-paragraphs h1 {
-    font-size: 56px;
+    font-size: 52px;
     line-height: 72px;;
 }
 
@@ -108,18 +106,13 @@ p {
     font-size: 17px;
 }
 
-.project-description {
-    padding: 120px 60px;
-
+.info-description {
+    padding: 40px
 }
+
 .main-icons {
     font-size: 30px;
     color: black;
-}
-
-.pic-michelle {
-    border-radius: 12px;
-    border: 2px solid black;
 }
 
 .skills-paragraph-one {
@@ -139,6 +132,18 @@ p {
 .skills-paragraph-two {
     background: white;
     border-radius: 12px;
+}
+
+.hero-projects {
+   background-color: black;
+    color: var(--primary-color);
+    text-align: center;
+    padding: 120px 5px;
+}
+
+.project-description {
+    padding: 120px 60px;
+
 }
 
 .projects-paragraphs {
