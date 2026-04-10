@@ -93,7 +93,7 @@ p {
 }
 
 .info-paragraphs h1 {
-    font-size: 52px;
+    font-size: 58px;
     line-height: 72px;;
 }
 
@@ -137,9 +137,14 @@ p {
     padding: 120px 5px;
 }
 
-.project-description {
-    padding: 120px 60px;
+.project-description-left {
+    padding: 140px 60px;
+    text-align: left;
+}
 
+.project-description-right {
+    padding: 140px 60px;
+    text-align: right;
 }
 
 .projects-paragraphs {
@@ -195,7 +200,12 @@ p {
         text-align: center;
     }
 
-    .project-description {
+    .project-description-left {
+        padding: 0;
+        text-align: center;
+    }
+
+    .project-description-right {
         padding: 0;
         text-align: center;
     }
