@@ -25,13 +25,13 @@ h1 {
 
 h2 {
     color: black;
-    font-size: 38px; 
+    font-size: 34px; 
     font-weight: 700;
 }
 
 h3 {
     color: black;
-    font-size: 34px;
+    font-size: 30px;
     line-height: 50px;
     font-weight: 700;
 }
@@ -54,8 +54,8 @@ h6 {
 p {
     background: var (--primary-color);
     color: black;
-    font-size: 22px;
-    line-height: 34px;
+    font-size: 18px;
+    line-height: 28px;
     font-weight: 100;
 }
 
@@ -122,16 +122,8 @@ footer {
 }
 
 .container-paragraphs h1 {
-    font-size: 57px;
-    line-height: 70px;
-}
-
-.about-paragraph {
-    font-size: 19px;
-}
-
-.pic-michelle {
-    margin-top: 50px;
+    font-size: 50px;
+    line-height: 60px;
 }
 
 .skills-text-box {
@@ -153,7 +145,7 @@ footer {
 }
 
 .projects-paragraph {
-    font-size: 48px;
+    font-size: 40px;
 }
 
 .project-description-left {
