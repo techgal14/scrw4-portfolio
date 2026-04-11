@@ -41,12 +41,29 @@ h4 {
     font-size: 46px;
 }
 
+h5 {
+    font-size: 52px;
+}
+
 p {
     background: var (--primary-color);
     color: black;
     font-size: 22px;
     line-height: 34px;
     font-weight: 100;
+}
+
+navbar li {
+    font-size: 20px;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    font-size: 22px;
 }
 
 .container-paragraphs {
@@ -136,13 +153,9 @@ p {
 }
 
 .project-description-right {
-     text-align: right;
+    text-align: right;
     padding-top: 120px; 
     padding-left: 60px;
-}
-
-.contact-paragraph {
-    font-family: 60px;
 }
 
 .contact-paragraph a {
@@ -151,10 +164,17 @@ p {
     text-decoration: none;
 }
 
+.navbar li.active a,
+.navbar a:hover {
+    color: var(--secondary-button-color);
+    transition: all 150ms ease-in-out;
+}
+
 .primary-button:hover {
     background: white;
     border: 2px solid var(--secondary-button-color);
     color:var(--secondary-button-color);
+    transition: all 150ms ease-in-out;
 }
 
 .secondary-button:hover {
@@ -165,13 +185,14 @@ p {
     line-height: 27px;
     font-weight: bold;
     padding: 18px 30px;
+    transition: all 150ms ease-in-out;
 }
 
 .contact-paragraph a:hover {
     color: var(--secondary-button-color);
     text-decoration: underline;
+    transition: all 150ms ease-in-out;
 }
-
 
 @media (max-width: 768px) {
     h1 {
