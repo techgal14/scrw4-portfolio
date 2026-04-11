@@ -212,20 +212,20 @@ footer {
     padding: 12px 14px;
     margin: 0 20px;
     border-radius: 50%;
-    transition: all 150ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .navbar li.active a,
 .navbar a:hover {
     color: var(--quaternary-color);
-    transition: all 150ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .primary-button:hover {
     background: white;
     border: 2px solid var(--quaternary-color);
     color:var(--quaternary-color);
-    transition: all 150ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .secondary-button:hover {
@@ -236,7 +236,7 @@ footer {
     line-height: 27px;
     font-weight: bold;
     padding: 18px 30px;
-    transition: all 150ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .contact-paragraph a:hover {
