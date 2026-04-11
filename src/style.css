@@ -1,7 +1,7 @@
 
 :root {
---primary-button-color: #c8a6d8; 
---secondary-button-color: #613263;
+--tertiary-color: #c8a6d8; 
+--quaternary-color: #613263;
 --secondary-font-family: monospace;
 --primary-color: #f7eddc;
 --secondary-color: #b7ce0a;
@@ -83,7 +83,7 @@ footer {
 }
 
 .primary-button {
-    background: var(--primary-button-color);
+    background: var(--tertiary-color);
     border-radius: 8px;
     color:  black;
     font-size: 18px;
@@ -108,6 +108,11 @@ footer {
     color: var(--secondary-color);
 }
 
+.skills-icons {
+    font-size: 40px;
+    color: black;
+}
+
 .hero-main {
     background-color: black;
     color: var(--primary-color);
@@ -126,9 +131,24 @@ footer {
     line-height: 60px;
 }
 
+.about-paragraph p {
+    font-size: 18px;
+}
+
 .skills-text-box {
     background: white;
     border-radius: 12px;
+    padding: 0;
+}
+
+.skills-description p {
+    background: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 7px;
+    border-radius: 30px;
+    text-align: center;
 }
 
 .hero-projects {
@@ -168,7 +188,7 @@ footer {
 
 .contact-box {
     background: black;
-    border: 1px solid var(--secondary-button-color);
+    border: 1px solid var(--quaternary-color);
     border-radius: 12px;
     padding: 30px 120px;
     margin: 0 150px;
@@ -197,19 +217,19 @@ footer {
 
 .navbar li.active a,
 .navbar a:hover {
-    color: var(--primary-button-color);
+    color: var(--quaternary-color);
     transition: all 150ms ease-in-out;
 }
 
 .primary-button:hover {
     background: white;
-    border: 2px solid var(--secondary-button-color);
-    color:var(--secondary-button-color);
+    border: 2px solid var(--quaternary-color);
+    color:var(--quaternary-color);
     transition: all 150ms ease-in-out;
 }
 
 .secondary-button:hover {
-    background: var(--primary-button-color);
+    background: var(--tertiary-color);
     border-radius: 8px;
     color:  black;
     font-size: 18px;
@@ -220,7 +240,7 @@ footer {
 }
 
 .contact-paragraph a:hover {
-    color: var(--secondary-button-color);
+    color: var(--quaternary-color);
     text-decoration: underline;
     transition: all 150ms ease-in-out;
 }
