@@ -76,7 +76,7 @@ footer {
     font-size: 22px;
 }
 
-.container-paragraphs {
+.paragraph-descriptions {
     background: var(--primary-color);
     color: black;
     border-radius: 8px;
@@ -103,14 +103,14 @@ footer {
     padding: 18px 30px;
 }
 
-.social-icons {
-    font-size: 45px;
-    color: var(--secondary-color);
-}
-
 .skills-icons {
     font-size: 40px;
     color: black;
+}
+
+.social-icons {
+    font-size: 45px;
+    color: var(--secondary-color);
 }
 
 .hero-main {
@@ -126,7 +126,7 @@ footer {
     padding: 10px;
 }
 
-.container-paragraphs h1 {
+.paragraph-descriptions h1 {
     font-size: 50px;
     line-height: 60px;
 }
@@ -265,12 +265,15 @@ footer {
 }
 
 @media (max-width: 768px) {
+
     h1 {
-        font-size: 64px;
+        font-size: 54px;
+        line-height: 65px;
     }
 
     h3 {
         font-size: 28px;
+        line-height: 36px;
     }
 
     .hero-main {
@@ -281,11 +284,7 @@ footer {
         font-size: 26px;
     }
 
-    .single-paragraph-text {
-        font-size: 32px;
-    }
-
-    .info-paragraphs {
+    .paragraph-descriptions {
         text-align: center;
     }
 
