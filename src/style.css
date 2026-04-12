@@ -135,18 +135,12 @@ footer {
     font-size: 18px;
 }
 
-.skills-text-box {
-    background: white;
-    border-radius: 12px;
-    padding: 0;
-}
-
 .skills-description p {
     background: black;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
-    padding: 7px;
+    padding: 5px;
     border-radius: 30px;
     text-align: center;
 }
