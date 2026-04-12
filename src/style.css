@@ -276,10 +276,6 @@ footer {
         line-height: 36px;
     }
 
-    h4 {
-        font-size: 32px;
-    }
-
     .hero-main {
         padding: 80px 20px;
     }
@@ -290,6 +286,10 @@ footer {
 
     .paragraph-descriptions {
         text-align: center;
+    }
+
+    .paragraph-descriptions h1 {
+        font-size: 38 px;
     }
 
     .project-description-left {
