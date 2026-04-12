@@ -302,14 +302,15 @@ footer {
     }
 
     .project-description-left {
-    text-align: center;
-    padding-top: 0px;
-    padding-right: 0px;; 
+        text-align: center;
+        padding-top: 0px;
+        padding-right: 0px;; 
 }
 
-.project-description-right {
-    text-align: center;
-    padding-top: 0px; 
-    padding-left: 0px;
+    .project-description-right {
+        text-align: center;
+        padding-top: 0px; 
+        padding-left: 0px;
 }
+
 }
