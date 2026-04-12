@@ -209,6 +209,18 @@ footer {
     transition: all 200ms ease-in-out;
 }
 
+.coder {
+    background: #23081F;
+    font-size: 12px;
+    font-family: var(--secondary-font-family);
+    color: var(--primary-color);
+}
+
+.coder a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
 .navbar li.active a,
 .navbar a:hover {
     color: var(--quaternary-color);
@@ -246,6 +258,10 @@ footer {
 .social-links a:hover {
     color: white;
     background: var(--secondary-color);
+}
+
+.coder a:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
