@@ -79,7 +79,7 @@ footer {
 .container-paragraphs {
     background: var(--primary-color);
     color: black;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 .primary-button {
