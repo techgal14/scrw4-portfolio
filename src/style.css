@@ -286,6 +286,8 @@ footer {
 
     .paragraph-descriptions {
         text-align: center;
+        padding: 0;
+        margin: 0;
     }
 
     .paragraph-descriptions h1 {
