@@ -264,7 +264,7 @@ footer {
     text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
 
     h1 {
         font-size: 38px;
@@ -286,13 +286,16 @@ footer {
 
     .paragraph-descriptions {
         text-align: center;
-        padding: 0;
-        margin: 0;
     }
 
     .paragraph-descriptions h1 {
-        font-size: 32px;
+        font-size: 30px;
         line-height: 42px;
+    }
+
+    .paragraph-descriptions h3 {
+        font-size: 24px;
+        line-height: 30px;
     }
 
       .about-paragraph p {
