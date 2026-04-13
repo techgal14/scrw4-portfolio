@@ -152,8 +152,22 @@ footer {
 
 .hero-projects {
     background-color: black;
+    color: var(--tertiary-color);
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 500;
+    font-family: var(--secondary-font-family);
+    padding: 100px 5px;
+}
+
+.hero-contact {
+    background-color: black;
     color: var(--secondary-color);
-    padding: 120px 5px;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 500;
+    font-family: var(--secondary-font-family);
+    padding: 100px 5px;
 }
 
 .hero-projects p {
