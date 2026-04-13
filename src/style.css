@@ -269,7 +269,7 @@ footer {
     text-decoration: underline;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
 
     h1 {
         font-size: 38px;
@@ -279,6 +279,10 @@ footer {
     h3 {
         font-size: 28px;
         line-height: 36px;
+    }
+
+    h4 {
+        font-size: 28px;
     }
 
     .hero-main {
@@ -294,21 +298,18 @@ footer {
     }
 
     .paragraph-descriptions h1 {
-        font-size: 30px;
-        line-height: 42px;
+        font-size: 27px;
+        line-height: 38px;
     }
 
     .paragraph-descriptions h3 {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 30px;
     }
 
-      .about-paragraph p {
+    .about-paragraph p {
+        font-size: 16px;
         margin-top: 25px;
-    }
-
-    .services-description {
-        margin: 0 !important;
     }
 
     .project-description-left {
