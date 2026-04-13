@@ -127,12 +127,17 @@ footer {
 }
 
 .paragraph-descriptions h1 {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 27px;
+    line-height: 35px;
+}
+
+.paragraph-descriptions h3 {
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .about-paragraph p {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .skills-description p {
